@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.right-side {
+    background-color: white;
+}
+
+.sidebar {
+    background-color: #11999E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.sidebar-content {
+    color: white;
+    text-align: left;
+    width: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-top: 15em;
+}
+
+.sidebar-about {
+    font-size: 2.5rem;
+}
+
+.sidebar-navigation-bar {
+    width: 1em;
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 2.0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#copyright {
+    padding-top: 10em;
+    color: #ffffff80;
+}
