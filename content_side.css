@@ -1,0 +1,26 @@
+.content-side {
+    padding-left: 25em;
+    text-align: left;
+    max-width: 850px;
+}
+
+.title {
+    font-size: 3rem;
+    padding-top: 0;
+}
+
+#me {
+    scale: 60%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.content-side-text {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'PT Serif', serif;
+}

@@ -1,11 +1,5 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-}
-
-.right-side {
-    background-color: white;
+    
 }
 
 .sidebar {
@@ -34,7 +28,12 @@
 
 .sidebar-navigation-bar {
     width: 1em;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.icons {
+    padding-top: 12em;
 }
 
 a {
@@ -46,6 +45,6 @@ a {
 }
 
 #copyright {
-    padding-top: 10em;
     color: #ffffff80;
+    
 }
