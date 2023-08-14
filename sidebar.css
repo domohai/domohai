@@ -1,7 +1,3 @@
-.container {
-    
-}
-
 .sidebar {
     background-color: #11999E;
     position: fixed;
@@ -36,7 +32,7 @@
     padding-top: 12em;
 }
 
-a {
+.social-link {
     color: white;
     text-decoration: none;
     line-height: 2.0;

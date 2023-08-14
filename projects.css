@@ -1,0 +1,14 @@
+.content-projects-side {
+    padding-left: 25em;
+    padding-top: 2em;
+    max-width: 850px;
+}
+
+.projects-title {
+    text-decoration: none;
+}
+
+.preview-image {
+    width: 60%;
+    margin-bottom: 1em;
+}
