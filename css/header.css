@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box; 
+    line-height: 1.5;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f6f6f6;
+}
+
+header {
+    background-color: #11999E;
+    float: left;
+    position: sticky;
+    height: 100%;
+    width: 18rem;
+}
+
+header * {
+    color: #f6f6f6;
+}
+
+header .gr-nav-bar {
+    margin: 0.8em;
+    padding-left: 0.5em;
+    height: 100%;
+}
+
+header .logo-text {
+    width: inherit;
+    margin-top: 5.2em;
+    margin-bottom: 0px;
+    line-height: 1.2;
+    font-size: 2.6em;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+header div .nav-bar {
+    display: block;
+    font-size: 1.2em;
+    border: 1px solid red;
+}
+
+header div .nav-bar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+header div .nav-bar ul li a {
+    text-decoration: none;
+}
+
+header div .nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+header .footer {
+    margin-bottom: 0px;
+    margin-top: 4em;
+    border: 1px solid red;
+}
+
+header .footer ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+header .footer ul li {
+    display: inline;
+    padding-left: 0.8em;
+}
+
+header .footer ul li a {
+    font-size: 1.5em;
+}
+
+header .footer ul li a:hover * {
+    color: #b5b5b5;
+}
+
+header .footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* media queries */
+@media only screen and (max-width: 750px) {
+    header {
+        background-color: #11999E;
+        position: sticky;
+        height: 14rem;
+        width: 100%;
+    }
+
+    header .logo-text {
+        width: inherit;
+        margin-top: 0.6em;
+        margin-bottom: 0px;
+        line-height: 1.1;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    header div .nav-bar {
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    header .footer {
+        margin-bottom: 0px;
+        margin-top: 0.8em;
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    header .gr-nav-bar {
+        height: 100%;
+        display: block;
+    }
+
+    header div .nav-bar ul {
+        list-style: none;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+        padding-left: 0px;
+    }
+
+    header div .nav-bar ul li a {
+        text-decoration: none;
+    }
+    
+    header div .nav-bar ul li a:hover {
+        text-decoration: underline;
+    }   
+}
