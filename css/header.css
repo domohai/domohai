@@ -12,7 +12,7 @@ body {
 header {
     background-color: #11999E;
     float: left;
-    position: sticky;
+    position: fixed;
     height: 100%;
     width: 18rem;
 }
@@ -22,7 +22,7 @@ header * {
 }
 
 header .gr-nav-bar {
-    margin: 0.8em;
+    margin: 0.5em;
     padding-left: 0.5em;
     height: 100%;
 }
@@ -34,13 +34,11 @@ header .logo-text {
     line-height: 1.2;
     font-size: 2.6em;
     font-weight: bold;
-    border: 1px solid red;
 }
 
 header div .nav-bar {
     display: block;
     font-size: 1.2em;
-    border: 1px solid red;
 }
 
 header div .nav-bar ul {
@@ -59,7 +57,6 @@ header div .nav-bar ul li a:hover {
 header .footer {
     margin-bottom: 0px;
     margin-top: 4em;
-    border: 1px solid red;
 }
 
 header .footer ul {
@@ -88,56 +85,69 @@ header .footer p {
 }
 
 /* media queries */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
     header {
-        background-color: #11999E;
-        position: sticky;
-        height: 14rem;
-        width: 100%;
+        width: 15rem;
     }
 
     header .logo-text {
-        width: inherit;
-        margin-top: 0.6em;
-        margin-bottom: 0px;
-        line-height: 1.1;
         font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        border: 1px solid red;
     }
 
-    header div .nav-bar {
-        display: block;
+    header .nav-bar {
+        font-size: 1em;
+    }
+
+    header .footer ul li a {
         font-size: 1.2em;
-        text-align: center;
-        border: 1px solid red;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        display: flex;
     }
 
-    header .footer {
-        margin-bottom: 0px;
-        margin-top: 0.8em;
+    header {
+        height: 11rem;
+        width: 100%;
         text-align: center;
-        border: 1px solid red;
+    }
+
+    header .logo-text {
+        font-size: 2em;
+        margin-top: 0.5em;
     }
 
     header .gr-nav-bar {
-        height: 100%;
-        display: block;
+        margin: 0px;
     }
 
-    header div .nav-bar ul {
-        list-style: none;
+    header .nav-bar {
+        font-size: 1em;
+    }
+
+    header .footer {
+        margin-top: 0px;
+    }
+
+    header .footer ul li a {
+        font-size: 1.2em;
+    }
+
+    header .nav-bar ul {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    header .logo-text {
+        font-size: 1.5em;
         margin-top: 0.3em;
-        margin-bottom: 0.3em;
-        padding-left: 0px;
     }
 
-    header div .nav-bar ul li a {
-        text-decoration: none;
+    header {
+        height: 10rem;
     }
-    
-    header div .nav-bar ul li a:hover {
-        text-decoration: underline;
-    }   
 }

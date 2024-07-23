@@ -2,42 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DMHai's personal site</title>
-    <link rel="stylesheet" href="./sidebar.css">
-    <link rel="stylesheet" href="./content_side.css">
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/projects.css">
+    
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/9a85022dc8.js" crossorigin="anonymous"></script>
+    
+    <!-- GG Fonts? -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="sidebar-content">
-                <h1 class="sidebar-about">DMHai's <br> personal site</h1>
-                <p class="sidebar-lead"></p>
-                <nav class="sidebar-navigation-bar">
-                    <a class="social-link" href="./index.html">About</a>
-                    <a class="social-link" href="./projects.html">Projects</a>
-                </nav>
-                <div class="icons">
-                    <a class="social-link" id="linkedin" href="https://www.linkedin.com/in/%C4%91%C3%ACnh-minh-h%E1%BA%A3i-179782236/">
-                        <i class="fa fa-linkedin fa-lg"></i>
-                    </a>
-                    <a class="social-link" id="github" href="https://github.com/domohai" target="_blank">
-                        <i class="fa fa-github fa-lg"></i>
-                    </a>
-                    <a class="social-link" id="youtube" href="https://www.youtube.com/channel/UC-KFVr2sPqIHY3u8Uo4-Wow">
-                        <i class="fa fa-youtube fa-lg"></i>
-                    </a>
-                </div>
-                <p id="copyright">© All rights reserved.</p>
+    <header>
+        <div class="gr-nav-bar">
+            <h1 class="logo-text">Minh Hai's personal site</h1>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="footer">
+                <ul>
+                    <li><a href="https://github.com/domohai" aria-label="Github">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/%C4%91%C3%ACnh-minh-h%E1%BA%A3i-179782236/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a></li>
+                </ul>
+                <p>© All rights reserved.</p>
             </div>
         </div>
+    </header>
         <div class="content-projects-side">
             <img src="./assets/cat-typing.gif" alt="cat-typing">
             <h1 class="title">Projects</h1>
@@ -50,7 +54,7 @@
             </p>
             <h1 class="title">
                 Bomberman
-                <a href="https://github.com/domohai/bomberman" target="_blank">
+                <a href="https://github.com/domohai/bomberman" target="_blank" rel="noopener" aria-label="Github bomberman">
                     <i class="fa fa-github fa-lg"></i>
                 </a>
             </h1>
@@ -66,11 +70,11 @@
             <p class="content-side-text">
                 In addition to our collective coding efforts, we commemorated the creation of this remarkable game with a captivating video on YouTube. As we embarked on this digital adventure, we recognized the importance of sharing our creation with the world, bringing our game to life beyond the confines of our screens. 
                 With meticulous attention to detail, we crafted a video that showcases the essence of our game, capturing its vibrant gameplay, mesmerizing visuals, and immersive soundscapes.
-                <br>Check it out <a href="https://youtu.be/41WUM5OKnHA">here</a>.
+                <br>Check it out <a href="https://drive.google.com/file/d/1G8mROHz0OBCGRDLyPpXdbkW__vFciJ47/view?usp=drive_link">here</a>.
             </p>
             <h1 class="title">
                 PlantsVsZombies
-                <a href="https://github.com/domohai/PlantsVsZombies" target="_blank">
+                <a href="https://github.com/domohai/PlantsVsZombies" target="_blank" rel="noopener" aria-label="Github PlantVsZombies">
                     <i class="fa fa-github fa-lg"></i>
                 </a>
             </h1>
@@ -88,7 +92,7 @@
             </p>
             <h1 class="title">
                 Geometry Dash
-                <a href="https://github.com/domohai/Geometry-Dash" target="_blank">
+                <a href="https://github.com/domohai/Geometry-Dash" target="_blank" rel="noopener" aria-label="Github Geometry Dash">
                     <i class="fa fa-github fa-lg"></i>
                 </a>
             </h1>

@@ -1,7 +1,9 @@
 .content-projects-side {
-    padding-left: 25em;
-    padding-top: 2em;
-    max-width: 850px;
+    margin-left: 20rem;
+    margin-right: 2rem;
+    padding-top: 3rem;
+    text-align: left;
+    position: relative;
 }
 
 .projects-title {
@@ -11,4 +13,18 @@
 .preview-image {
     width: 60%;
     margin-bottom: 1em;
+}
+
+/* Media queries */
+@media only screen and (max-width: 850px) {
+    .content-side {
+        margin-left: 17rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .content-side {
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
 }
